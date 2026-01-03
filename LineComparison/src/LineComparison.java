@@ -22,4 +22,9 @@ public class LineComparison {
     public boolean isEqual(LineComparison otherLine) {
         return this.calculateLength().equals(otherLine.calculateLength());
     }
+
+    public int compare(LineComparison otherLine) {
+        return this.calculateLength().compareTo(otherLine.calculateLength());
+    }
+
 }
