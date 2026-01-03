@@ -62,4 +62,20 @@ public class EmployeeWageComputation {
         System.out.println("Monthly Employee Wage: " + monthlyWage);
     }
 
+    public void calculateWageTillCondition() {
+        int wagePerHour = 20;
+        int totalHours = 0;
+        int totalDays = 0;
+        int maxHours = 100;
+        int maxDays = 20;
+
+        while (totalHours < maxHours && totalDays < maxDays) {
+            totalDays++;
+            totalHours += 8;
+        }
+
+        int totalWage = totalHours * wagePerHour;
+        System.out.println("Total Wage till condition: " + totalWage);
+    }
+
 }

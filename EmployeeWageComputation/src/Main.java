@@ -8,6 +8,7 @@ public class Main {
         emp.calculatePartTimeWage();
         emp.calculateWageUsingSwitch();
         emp.calculateMonthlyWage();
+        emp.calculateWageTillCondition();
 
     }
 }
