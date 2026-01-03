@@ -7,6 +7,7 @@ public class Main {
         emp.calculateDailyWage();
         emp.calculatePartTimeWage();
         emp.calculateWageUsingSwitch();
+        emp.calculateMonthlyWage();
 
     }
 }
