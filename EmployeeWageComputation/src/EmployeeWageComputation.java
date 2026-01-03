@@ -21,4 +21,12 @@ public class EmployeeWageComputation {
         System.out.println("Daily Employee Wage: " + dailyWage);
     }
 
+    public void calculatePartTimeWage() {
+        int wagePerHour = 20;
+        int partTimeHour = 8;
+
+        int partTimeWage = wagePerHour * partTimeHour;
+        System.out.println("Part Time Employee Wage: " + partTimeWage);
+    }
+
 }
